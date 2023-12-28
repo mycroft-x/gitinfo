@@ -16,6 +16,4 @@ app.get('/gitinfo/', (req, res) => {
     res.end()
 })
 
-app.listen(port, () => (
-    console.log('woooddddp')
-))
+module.exports = app
