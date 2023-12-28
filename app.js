@@ -1,5 +1,7 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
+const port = process.env.PORT || 5000;
 
 app.get('/', (req, res) => {
     res.status(404)
@@ -14,13 +16,6 @@ app.get('/gitinfo/', (req, res) => {
     res.end()
 })
 
-app.listen(443, () => (
+app.listen(port, () => (
     console.log('woooddddp')
-))
-app.listen(3000, () => (
-    console.log('wooowwwep')
-))
-
-app.listen(80, () => (
-    console.log('wooeeeeop')
 ))
