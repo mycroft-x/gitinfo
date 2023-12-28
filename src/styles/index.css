@@ -9,7 +9,7 @@
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    font-family: 'Segoe UI';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #menu-img{
     width: 40%;
