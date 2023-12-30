@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>404</h1>
+    <p>The user '<span id="username"></span>' cannot be found</p>
+
+    <div>
+        <button onclick="window.history.go(-1); return false;">Go Back</button>
+        <button onclick="window.location.href = `https://docs.github.com/rest/users/users#get-a-user`">Check Documentation Url</button>
+    </div>
+
+</body>
+<style>
+    h1{
+        font-size: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+</style>
+</html>

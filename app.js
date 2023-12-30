@@ -40,6 +40,11 @@ app.get('/search.js', (req, res) => {
     res.sendFile(`${__dirname}/src/search.js`)
 })
 
+app.get('/not-found', (req, res) => {
+    res.status(200)
+    res.sendFile(`${__dirname}/src/not-found.html`)
+})
+
 app.listen(port, () => {
     console.log("I'm alive");
 })

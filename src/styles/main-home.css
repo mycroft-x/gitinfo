@@ -1,5 +1,6 @@
 #info{
     flex: 1;
+    overflow-y: scroll;
 }
 #info-1, #info-2{
     display: flex;
@@ -21,7 +22,7 @@
 }
 #info-2{
     border: 1px solid black;
-    height: calc(1.4/3 *100%);
+    flex-direction: column;
 }
 #profile-info-cont{
     height: 100%;
@@ -77,8 +78,16 @@ a{
     align-items: center;
     padding: 5px 0px;
     font-size: smaller;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px thick #000;
 }
 .b{
     font-weight: 600;
+}
+#info-2 > ul{
+    width: 100%;
+}
+#repo{
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
 }
