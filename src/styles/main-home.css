@@ -22,21 +22,15 @@
     height: calc(1.2/3 *100%);
 }
 #profile-info-cont{
-    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: max-content;
 }
-#profile-pic-cont{
-    width: 100%;
-    height: 70%;
-    overflow-y: hidden;
-    border-radius: 1000px;
-}
 #profile-pic{
-    height: 100%;
+    border-radius: 200px;
+    height: 80%;
     width: 100%;
     overflow-y: hidden;
     object-fit: cover;
