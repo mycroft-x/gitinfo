@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="main-home.css">
+    <title>GitInfo</title>
+</head>
+
+<body>
+    <div id="content">
+        <nav id="nav-bar">
+            <div id="header-icon">
+                <div id="menu-cont"><img id="menu-img" src="logo.svg" alt="w"></div>
+                <h2>git<b>info</b></h2>
+                <!-- <div id="filler"></div> -->
+            </div>
+            <ul id="nav-btns">
+                <li id="home-btn" class="nav-items">
+                    Home
+                </li>
+                <li id="nav-searchbar">
+                    <input id="search" type="input" placeholder="Username goes here..." name="search">
+                    <button id="search-x">X</button>
+                </li>
+
+                <li id="search-btn" class="nav-items">
+                    Search
+                </li>
+                <!-- <li id="nav-search" class="nav-items">
+                    <input type="text" id="nav-searchbar" placeholder="Search or enter an address"> 
+                </li>
+                <li id="nav-search-small" hidden>
+                    <img id= "nav-search-icon"src="/images/search.svg" alt="search icon">
+                    <div id="expand-search">
+                        <input type="text" id="alt-nav-searchbar" placeholder="London maybe...">
+                        <div id="x-ns">X</div>
+                    </div>
+                </li> -->
+            </ul>
+        </nav>
+        <main id="info">
+            <section id="profile">
+                <section id="profile-info-cont">
+                    <div id="profile-pic-cont">
+                        <img id="profile-pic" src="logo.svg" alt="">
+                    </div>
+                </section>
+                <section id="names-cont">
+                    <div id="name"> GitHub User</div>
+                    <div id="login">
+                        -- > <a id="loginn" href="https://github.com/mycroft-x"> null </a>
+                    </div>
+                    <div id="location"> null </div>
+                </section>
+            </section>
+            <section id="info-1">
+                <section id="bio">
+                    <p id="bio-imp"> null </p>
+                </section>
+                <aside>
+                    <section id="followersxfollowing">
+                        <a id="following" class="b">-</a> Following | <a id="followers" class="b">-</a> Follower(s)
+                    </section>
+                    <section id="no-repos">
+                        <span id="num-repos" class="b">-</span> Public Repositories
+                    </section>
+                    <section id="date-joined">
+                        <div>Joined -/-/----</div> 
+                    </section>
+                </aside>
+
+
+            </section>
+            <section id="info-2"></section>
+        </main>
+    </div>
+    <script src="home.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
