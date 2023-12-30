@@ -24,6 +24,7 @@
 #nav-bar{
     width: 100vw;
     min-height: 7.5dvh;
+    max-height: 10dvh;
     display: flex;
     align-items: center;
     /* justify-content: center; */
