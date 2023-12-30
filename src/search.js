@@ -7,7 +7,7 @@ const bio = document.getElementById('bio-imp')
 const following = document.getElementById('following')
 const followers = document.getElementById('followers')
 const numOfRepos = document.getElementById('num-repos')
-const dateJoined = document.getElementById('date-joined')
+const dateJoined = document.getElementById('date-joined-imp')
 
 searchBar.addEventListener('keydown', (event) => handleEnterKey(event))
 function handleEnterKey(event) {
@@ -35,7 +35,7 @@ async function search(username) {
     following.innerText = userData.following
     following.setAttribute('href', `${userData.following_url}`)
     numOfRepos.innerText = userData.public_repos
-    dateJoined.innerText = `Joined ${new Date(`${userData.created_at}`).getDate()}/${new Date(`${userData.created_at}`).getMonth()}/${new Date(`${userData.created_at}`).getFullYear()} `
+    dateJoined.innerText = `${new Date(`${userData.created_at}`).getDate()}/${new Date(`${userData.created_at}`).getMonth()}/${new Date(`${userData.created_at}`).getFullYear()} `
 
     console.log(userData);
 }

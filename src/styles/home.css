@@ -13,7 +13,6 @@
 }
 #menu-img{
     width: 100%;
-    height: max-content;
 }
 #menu-cont{
     width: 15%;
@@ -23,7 +22,7 @@
 }
 #nav-bar{
     width: 100vw;
-    min-height: 7.5dvh;
+    min-height: 9dvh;
     max-height: 10dvh;
     display: flex;
     align-items: center;
